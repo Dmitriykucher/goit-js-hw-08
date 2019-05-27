@@ -1,0 +1,38 @@
+.frame {
+  border: 2px solid black;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  margin: 20px;
+}
+
+.question {
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.choiceList {
+  list-style: none;
+  text-align: left;
+  padding-left: 0;
+}
+
+.choiceList li {
+  padding: 10px;
+}
+
+.testQuestion {
+  text-align: left;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
